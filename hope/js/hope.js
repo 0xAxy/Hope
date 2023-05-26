@@ -153,6 +153,51 @@ const transferHope = async()=>{
 }
 ;
 
+/*
+document.addEventListener('DOMContentLoaded', function () {
+    const inputField = document.querySelector('#name');
+    const images = document.querySelectorAll('.image-4');
+    const baseUrl = 'https://ipfs.io/ipfs/QmTDtXxXbeqGTsjtiJumoZYFyjZSXdJUe73Dzzw9E4c31L/';
+    let imageIndex = 0;
+
+    function changeImages(imageId) {
+      if (imageId) {
+        console.log('Changing images to:', imageId);
+        const cacheBuster = Date.now();
+        images.forEach((image) => {
+          const newSrc = `${baseUrl}${imageId}.png?${cacheBuster}`;
+          image.setAttribute('src', newSrc);
+          console.log(`Image URL: ${newSrc}`);
+        });
+      } else {
+        console.log('No valid image ID provided.');
+      }
+    }
+
+    function processInput() {
+      const input = inputField.value.trim();
+      if (input) {
+        const imageIds = input.split(' ');
+        console.log('Input received:', input, 'Image IDs:', imageIds);
+        changeImages(imageIds[imageIndex]);
+      }
+    }
+
+    inputField.addEventListener('input', processInput);
+
+    setInterval(() => {
+      if (inputField.value.trim()) {
+        const imageIds = inputField.value.trim().split(' ');
+        console.log('image index:', imageIndex);
+        changeImages(imageIds[imageIndex]);
+        imageIndex++;
+        if (imageIndex >= imageIds.length) {
+          imageIndex = 0;
+        }
+      }
+    }, 3000);
+});*/
+
 // NTP functionality
 (function() {
     document.addEventListener('DOMContentLoaded', function() {
