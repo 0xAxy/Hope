@@ -203,7 +203,7 @@ document.addEventListener('DOMContentLoaded', function () {
     document.addEventListener('DOMContentLoaded', function() {
         const inputField = document.querySelector('#NFT-token-ID');
         const imageElement = document.querySelector('.image-4');
-        const baseUrl = 'https://gateway.pinata.cloud/ipfs/QmRy3gpiwuTECFnVbSZp172cznjAvwYzxLBxwdWQDHGQyY/';
+        const baseUrl = 'https://ipfs.io/ipfs/QmTDtXxXbeqGTsjtiJumoZYFyjZSXdJUe73Dzzw9E4c31L/';
         const claimableHopeElement = document.querySelector('#claimable-hope');
 
     function changeImage(imageId) {
